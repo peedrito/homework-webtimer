@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
 
 body {
-    background-color: purple;
+    background-color: black;
 }
 
 .clock {
@@ -12,9 +12,9 @@ body {
 
 .container {
     font-family: "Smooch Sans", sans-serif;
+    color: white;
     width: 800px;
     height: 220px;
-    background-color: white;
     padding-top: 2%;
     border-radius: 20px;
     margin-top: 10%;
@@ -22,6 +22,7 @@ body {
 }
 
 .title {
+    color: white;
     font-size: 45px;
     font-family: "Smooch Sans", sans-serif;
     margin: 10px;
@@ -30,10 +31,14 @@ body {
 button {
     font-family: "Smooch Sans", sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(22, 22, 22);
+    background-color: black;
     font-size: 20px;
     margin-top: 0;
     margin-left: 10px;
-    padding-top: 0;
+    text-align: center;
+    text-decoration: none;
     border-radius: 5px;
+    border: 2px solid blueviolet;
+    display: inline-block;
+    cursor: pointer;
 }
