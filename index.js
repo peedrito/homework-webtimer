@@ -14,3 +14,5 @@ pause.addEventListener('click', function(event) {
 timerZero.addEventListener('click', function(event) {
     alert("Cliquei em 'Zerar'");
 });
+
+console.log("danilinho aqui")
